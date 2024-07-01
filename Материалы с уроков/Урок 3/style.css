@@ -17,6 +17,10 @@ img{
     width: 500px;
 }
 
+ul{
+    list-style-type: circle;
+}
+
 .yes{
     background-color: green;
     color: #fff;
