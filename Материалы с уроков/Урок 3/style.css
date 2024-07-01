@@ -1,0 +1,28 @@
+body{
+    background-color: #e0f9f7;
+    font-family: sans-serif;
+}
+
+ol{
+    list-style-position: inside;
+    padding-left: 0;
+    width: 500px;
+}
+
+ol li{
+    padding: 5px 20px;
+}
+
+img{
+    width: 500px;
+}
+
+.yes{
+    background-color: green;
+    color: #fff;
+}
+
+.no{
+    background-color: red;
+    color: #fff;
+}
