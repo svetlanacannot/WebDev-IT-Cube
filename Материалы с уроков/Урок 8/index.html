@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Разработка сайтов. Измалкина Светлана</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html">
+            <img src="./Images/logo.svg" alt="" class="header__logo">
+        </a>
+        
+        <nav class="header__nav">
+            <a href="./index.html">Главная</a>
+            <a href="">Обо мне</a>
+            <a href="">Услуги</a>
+            <a href="">Портфолио</a>
+            <a href="">Контакты</a>
+        </nav>
+
+        <a class="header__mail" href="mailto:svetlanaizmalkin@gmail.com">Написать на почту</a>
+    </header>
+    <main class="main">
+        <section class="cover">
+            <div class="text">
+                <p class="cover__slogan">Ваши сайты - моя забота</p>
+                <p class="cover__descr">Делаю не просто сайты, а инструменты повышения продаж</p>
+                <a class="cover___link" href="">Заказать сайт</a>
+            </div>
+        </section>
+        <section class="about block">
+            <h2 class="block__title">Веб-разработчик</h2>
+            <div class="about__row">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/2tAPxjcGLms?si=iEMf35_J3B3uGBj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="about__text">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusamus nulla corporis veritatis corrupti blanditiis voluptatibus ratione doloremque repudiandae quaerat, sint possimus sequi voluptatem quos, nam cupiditate nobis. Voluptas, est? 
+                </p>
+            </div>
+            <div class="about__row">
+                <p class="about__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusamus nulla corporis veritatis corrupti blanditiis voluptatibus ratione doloremque repudiandae quaerat, sint possimus sequi voluptatem quos, nam cupiditate nobis. Voluptas, est? 
+                 </p>
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/2tAPxjcGLms?si=iEMf35_J3B3uGBj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="services block">
+            <h2 class="block__title">Услуги и прайс</h2>
+
+            <table class="services__table">
+                <thead>
+                    <tr>
+                        <th>Услуга</th>
+                        <th>Описание</th>
+                        <th>Цена</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Полная разработка сайта</td>
+                        <td>тут описание услуги</td>
+                        <td>100000000 деняк</td>
+                    </tr>
+                    <tr>
+                        <td>Верстка сайта</td>
+                        <td>тут описание услуги</td>
+                        <td>9999999 деняк</td>
+                    </tr>
+                    <tr>
+                        <td>Внесение правок в сайт</td>
+                        <td>тут описание услуги</td>
+                        <td>100000 деняк</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="contacts block">
+            <h2 class="block__title">Контакты</h2>
+            <div class="contacts__help">Укажите ниже удобный способ связи и свои контакты, чтобы я могла с вами связаться</div>
+            <form action="" class="contacts__form">
+                <div class="contacts__column">
+                    <label for="fio" class="contacts__label">ФИО<span class="red">*</span></label>
+                    <input name="fio" id="fio" type="text" class="contacts__input" placeholder="Иванов Иван Иванович" required>
+                    <label for="type" class="contacts__label">Способ связи<span class="red">*</span></label>
+                    <select name="type" id="type" class="contacts__input" required>
+                        <option value="telegram" selected>Telegram</option>
+                        <option value="whatsapp">Whatsapp</option>
+                        <option value="viber">Viber</option>
+                        <option value="phone">Телефон</option>
+                        <option value="email">Email</option>
+                    </select>
+                </div>
+                <div class="contacts__column">
+                    <label for="phone" class="contacts__label">Телефон</label>
+                    <input name="phone" id="phone" type="text" class="contacts__input" placeholder="+7(987)654-32-10">
+                    <label for="email" class="contacts__label">Email</label>
+                    <input name="email" id="email" type="text" class="contacts__input" placeholder="testemail@mail.ru">
+                </div>
+                <div class="contacts__column">
+                    <label for="other" class="contacts__label">Другой способ связи</label>
+                    <input name="other" id="other" type="text" class="contacts__input">
+                    
+                    <label class="contacts__label"><input type="checkbox" name="personal" required>Я согласен на обработку персональных данных<span class="red">*</span></label>
+                </div>
+                
+                <button type="submit" class="contacts__btn">Отправить</button>
+            </form>
+
+
+        </section>
+    </main>
+</body>
+</html>
