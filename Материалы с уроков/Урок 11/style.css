@@ -307,6 +307,21 @@ body{
     align-self: flex-end;
 }
 
+@media(max-width: 620px){
+    .contacts__input{
+        min-width: 0px;
+        width: 100%;
+    }
+
+    .contacts__column{
+        width: 1005px;
+    }
+
+    .contacts__btn{
+        margin-top: 15px;
+    }
+}
+
 /* FOOTER */
 
 .footer{
@@ -325,4 +340,17 @@ body{
 .footer_site img{
     width: 30px;
     height: 30px;
+}
+
+@media(max-width: 800px){
+    .footer{
+        flex-direction: column;
+        padding: 30px 10px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer__socials{
+        margin-bottom: 10px;
+    }
 }
